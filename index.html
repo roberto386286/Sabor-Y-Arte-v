@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicioso | Comida Gourmet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <header>
+        <nav>
+            <div class="logo">Restaurante Delicioso</div>
+            <ul class="nav-links">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero (Inicio) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Sabores que Inspiran</h1>
+            <p>Descubre nuestra cocina gourmet en el corazón de la ciudad.</p>
+            <a href="#reservation" class="btn">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección del Menú -->
+    <section id="menu" class="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/dish1.jpg" alt="Plato 1">
+                <h3>Pasta Trufada</h3>
+                <p>Pasta fresca con salsa de trufa negra y champiñones.</p>
+                <span>$18.99</span>
+            </div>
+            <div class="menu-item">
+                <img src="img/dish2.jpg" alt="Plato 2">
+                <h3>Salmon a la Parrilla</h3>
+                <p>Salmón fresco con hierbas y acompañamientos de temporada.</p>
+                <span>$22.99</span>
+            </div>
+            <!-- Más platos aquí -->
+        </div>
+    </section>
+
+    <!-- Sección de Reservas -->
+    <section id="reservation" class="reservation">
+        <h2>Reserva una Mesa</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Teléfono" required>
+            <input type="date" required>
+            <input type="time" required>
+            <input type="number" placeholder="Nº de Personas" min="1" required>
+            <button type="submit" class="btn">Confirmar Reserva</button>
+        </form>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</p>
+            <p><i class="fas fa-phone"></i> +123 456 7890</p>
+            <p><i class="fas fa-envelope"></i> info@restaurantedelicioso.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+        <p>&copy; 2023 Restaurante Delicioso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
